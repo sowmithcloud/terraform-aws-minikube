@@ -7,10 +7,10 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "daws76s-remote-state"
+    bucket = "sowmith-s3-dev"
     key    = "minikube"
     region = "us-east-1"
-    dynamodb_table = "daws76s-locking"
+    dynamodb_table = "project-locking-dev"
   }
 }
 
