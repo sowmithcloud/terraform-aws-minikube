@@ -7,7 +7,7 @@ module "minikube" {
   ssh_public_key = "~/.ssh/ecomm.pub"
   aws_subnet_id = "subnet-0ba7e51b972d0a4fb" #replace your default subnet id
   # by default centos7 will be used
-  ami_image_id = "ami-0f3c7d07486cad139"
+  # ami_image_id = "ami-0f3c7d07486cad139"
   hosted_zone = "nextgensquare.online"
   hosted_zone_private = false
 
